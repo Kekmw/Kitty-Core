@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty Core</title>
+    <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/826441917603905537/828291177786769408/cat.png">
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div class="topnav" id="theTopnav">
+        <a href="#home" class="topnavlink" onclick="openNav(event, 'Home')">Home</a>
+        <a href="#invite" class="topnavlink" onclick="openNav(event, 'Invite')">Invite</a>
+        <a href="#credits" class="topnavlink" onclick="openNav(event, 'Credits')">Credits</a>
+            <i class="some-bars"></i>
+        </a>
+    </div>
+    <div id="Home" class="topnavcontent">
+        <h1>Home</h1>
+        <h3>About Kitty Core:</h3>
+        <p>Kitty Core is a moderation bot and a anti-nuke and anti-raid bot. The bot isn't fully finished yet, but the basic mod commands are all available.</p>
+    </div>
+    <div id="Invite" class="topnavcontent">
+        <h1>Invite</h1>
+        <button class="navbutton" onclick="document.location='https://discord.gg/me4pzaMKfe'">Click Here To Join The Support Server</button>
+        <button class="navbutton" onclick="document.location='https://discord.com/api/oauth2/authorize?client_id=800731462562873365&permissions=2081287415&scope=bot'">Click Here To Invite Bot</button>
+    </div>
+    <div id="Credits" class="topnavcontent">
+        <h3>Credits</h3>
+        <p></p>
+    </div>
+    <script src='app.js'></script>
+</body>
+</html>
