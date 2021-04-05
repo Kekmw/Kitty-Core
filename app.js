@@ -14,3 +14,5 @@ function openNav(evt, navName) {
   document.getElementById(navName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+document.getElementById("defaultOpen").click();
