@@ -1,3 +1,10 @@
+  body {
+    background-image: url('https://f002.backblazeb2.com/file/aysnet/brand/backgrounds/fxlb9eda42a31.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
 .topnav {
     background-color: transparent;
     overflow: hidden;
@@ -93,11 +100,4 @@
       display: block;
       text-align: left;
     }
-  }
-
-  body {
-    background-image: url('https://f002.backblazeb2.com/file/aysnet/brand/backgrounds/fxlb9eda42a31.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
   }
