@@ -1,1 +1,2 @@
-## Fixing Some Problems
+# Kitty Core
+Official Website of Kitty Core Bot!
